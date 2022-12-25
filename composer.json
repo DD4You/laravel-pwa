@@ -1,0 +1,36 @@
+{
+  "name": "dd4you/pwa",
+  "description": "This package used for the make pwa website quickly.",
+  "type": "library",
+  "license": "MIT",
+  "keywords": [
+    "laravel-pwa",
+    "pwa-laravel",
+    "laravel",
+    "laravel 9",
+    "pwa"
+  ],
+  "autoload": {
+    "psr-4": {
+      "DD4You\\Pwa\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "DD4You\\Pwa\\PWAServiceProvider"
+      ]
+    }
+  },
+  "authors": [
+    {
+      "name": "Vinay Singh",
+      "email": "vinay@dd4you.in"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=8.1",
+    "illuminate/support": ">=8.0"
+  }
+}
